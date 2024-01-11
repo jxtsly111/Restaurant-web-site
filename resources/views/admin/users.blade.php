@@ -18,11 +18,17 @@
             <th style="padding: 30px">Email</th>
             <th style="padding: 30px">Action</th>
         </tr>
+        @foreach($data as $data)
         <tr align="center">
-            <td>jxtsly</td>
-            <td>jxtsly@gmail.com</td>
+            <td>{{$data->name }}</td>
+            <td>{{$data->email}}</td>
+            @if($data->usertype == '0')
             <td><a href="">Delete</a></td>
+            @else
+            <td><a href="">Not Allowed</a></td>
+            @endif
         </tr>
+        @endforeach
     </table>
    </div>
     </div>

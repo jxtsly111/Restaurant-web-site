@@ -9,6 +9,7 @@ use App\Models\User;
 class AdminController extends Controller
 {
     public function user(){
-        return view('admin.users');
+        $data = user::all();
+        return view('admin.users',compact('data'));
     }
 }
