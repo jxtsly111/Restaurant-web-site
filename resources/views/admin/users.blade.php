@@ -23,9 +23,9 @@
             <td>{{$data->name }}</td>
             <td>{{$data->email}}</td>
             @if($data->usertype == '0')
-            <td><a href="">Delete</a></td>
+            <td><a href="{{url('/deleteuser',$data->id)}}">Delete</a></td>
             @else
-            <td><a href="">Not Allowed</a></td>
+            <td>Not Allowed</td>
             @endif
         </tr>
         @endforeach
