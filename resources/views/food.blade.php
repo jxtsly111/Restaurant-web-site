@@ -13,6 +13,8 @@
         <div class="col-lg-12">
             <div class="owl-menu-item owl-carousel">
                 <div class="item">
+
+
                     <div class='card card1'>
                         <div class="price"><h6>$14</h6></div>
                         <div class='info'>
