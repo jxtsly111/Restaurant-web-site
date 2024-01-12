@@ -17,6 +17,25 @@
             <label>Title</label>
             <input type="text" name="title" placeholder="write a title" required>
         </div>
+
+        <div>
+            <label>Price</label>
+            <input type="number" name="price" placeholder="price" required>
+        </div>
+
+        <div>
+            <label>Image</label>
+            <input type="file" name="image" required>
+        </div>
+
+        <div>
+            <label>Description</label>
+            <input type="text" name="description" placeholder="Description" required>
+        </div>
+
+        <div>
+            <input type="submit" value="Save">
+        </div>
     </form>
    </div>
     <!-- container-scroller -->
