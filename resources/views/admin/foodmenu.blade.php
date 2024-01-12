@@ -15,12 +15,12 @@
     <form action="{{url('/uploadfood')}}" method="post" enctype="multipart/form-data">@csrf
         <div>
             <label>Title</label>
-            <input type="text" name="title" placeholder="write a title" required>
+            <input style="color: blue" type="text" name="title" placeholder="write a title" required>
         </div>
 
         <div>
             <label>Price</label>
-            <input type="number" name="price" placeholder="price" required>
+            <input style="color: blue" type="number" name="price" placeholder="price" required>
         </div>
 
         <div>
@@ -30,7 +30,7 @@
 
         <div>
             <label>Description</label>
-            <input type="text" name="description" placeholder="Description" required>
+            <input style="color: blue" type="text" name="description" placeholder="Description" required>
         </div>
 
         <div>
