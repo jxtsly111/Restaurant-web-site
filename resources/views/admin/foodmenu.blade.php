@@ -11,8 +11,8 @@
     <div class="container-scroller">
    @include("admin.navbar")
 
-   <div>
-    <form action="">
+   <div style="position:relative; top:60px; right: -150px">
+    <form action="{{url('/uploadfood')}}" method="post" enctype="multipart/form-data">@csrf
         <div>
             <label>Title</label>
             <input type="text" name="title" placeholder="write a title" required>
@@ -34,7 +34,7 @@
         </div>
 
         <div>
-            <input type="submit" value="Save">
+            <input style="color: black; background-color:white;" type="submit" value="Save">
         </div>
     </form>
    </div>
