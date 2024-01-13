@@ -48,12 +48,14 @@
                 <th style="Padding :30px">Image</th>
             </tr>
 
+            @foreach($data as $data)
             <tr align="center">
-                <td>sd</td>
-                <td>sdf</td>
-                <td>sdfgfd</td>
-                <td>hgfc</td>
+                <td>{{$data->title}}</td>
+                <td>{{$data->price}}</td>
+                <td>{{$data->description}}</td>
+                <td><img src="/foodimage/{{$data->image}}" alt="" style="width: 50px"></td>
             </tr>
+            @endforeach
         </table>
     </div>
    </div>
