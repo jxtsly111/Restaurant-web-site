@@ -37,6 +37,25 @@
             <input style="color: black; background-color:white;" type="submit" value="Save">
         </div>
     </form>
+
+    <div>
+
+        <table bgcolor = "black">
+            <tr>
+                <th style="Padding :30px">Food Name</th>
+                <th style="Padding :30px">Price</th>
+                <th style="Padding :30px">Description</th>
+                <th style="Padding :30px">Image</th>
+            </tr>
+
+            <tr align="center">
+                <td>sd</td>
+                <td>sdf</td>
+                <td>sdfgfd</td>
+                <td>hgfc</td>
+            </tr>
+        </table>
+    </div>
    </div>
     <!-- container-scroller -->
     </div>
