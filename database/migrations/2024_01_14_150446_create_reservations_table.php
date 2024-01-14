@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name')->nullable();
             $table->string('email')->nullable();
-            $table->string('phpne')->nullable();
+            $table->string('phone')->nullable();
             $table->string('guest')->nullable();
             $table->string('date')->nullable();
             $table->string('time')->nullable();

@@ -28,7 +28,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="contact-form">
-                    <form id="contact" action="" method="post">@csrf
+                    <form id="contact" action="{{url('reservation')}}" method="post">@csrf
                       <div class="row">
                         <div class="col-lg-12">
                             <h4>Table Reservation</h4>
