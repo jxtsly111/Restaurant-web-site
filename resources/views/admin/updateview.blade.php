@@ -14,7 +14,7 @@
    @include("admin.navbar")
 
    <div style="position:relative; top:60px; right: -150px">
-    <form action="{{url('/uploadfood')}}" method="post" enctype="multipart/form-data">@csrf
+    <form action="{{url('/update',$data->id)}}" method="post" enctype="multipart/form-data">@csrf
         <div>
             <label>Title</label>
             <input style="color: blue" type="text" name="title" value="{{$data->title}}" required>
@@ -25,15 +25,23 @@
             <input style="color: blue" type="number" name="price" value="{{$data->price}}" required>
         </div>
 
-        <div>
-            <label>Image</label>
-            <input type="file" name="image" required>
-        </div>
-
+      
         <div>
             <label>Description</label>
             <input style="color: blue" type="text" name="description" value="{{$data->description}}" required>
         </div>
+
+        <div>
+            <label>Old Image</label>
+            <img src="/foodimage/{{$data->image}}" alt="" style="width: 50px"> 
+        </div>
+
+
+        <div>
+            <label>New Image</label>
+            <input type="file" name="image" required>
+        </div>
+
 
         <div>
             <input style="color: black; background-color:white;" type="submit" value="Save">
