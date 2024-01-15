@@ -209,7 +209,7 @@ https://templatemo.com/tm-558-klassy-cafe
     <!-- ***** Menu Area Ends ***** -->
 
     <!-- ***** Chefs Area Starts ***** -->
-   
+   @include('foodchef')
     <!-- ***** Chefs Area Ends ***** -->
 
     <!-- ***** Reservation Us Area Starts ***** -->
