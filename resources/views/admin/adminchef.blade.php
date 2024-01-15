@@ -11,6 +11,8 @@
 
    @include("admin.navbar")
 
+   <h1>Admin Chef</h1>
+
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
