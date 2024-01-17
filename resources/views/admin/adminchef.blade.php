@@ -12,7 +12,7 @@
    @include("admin.navbar")
 
 
-   <form action="">
+   <form action="{{url('/uploadchef')}}" method="P ost" enctype="multipart/form-data">@csrf
 
     <div>
 
@@ -36,12 +36,12 @@
 <div>
 
    
-    <input  type="submit" value="save" required>
+    <input style="color: black; background-color:white;" type="submit" value="save" required>
 </div>
 
    </form>
 
-   <h1>Admin Chef</h1>
+  
 
     </div>
     <!-- container-scroller -->
