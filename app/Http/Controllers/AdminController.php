@@ -99,16 +99,16 @@ class AdminController extends Controller
 
      public function uploadchef(Request $request)
      {
-        $data = Foodchef::all();
+        $data = new Foodchef;
 
         $image = $request->image;
         $imagename = time().'.'.$image->getClientOriginalExtension();
         $request->image->move('chefimage',$imagename);
-        $data ->image = $imagename;
-        $data ->name = $request -> name;
-        $data ->speciality = $request -> speciality;
+        $data->image = $imagename;
+        $data->name = $request->name;
+        $data->speciality = $request->speciality;
 
-        $data -> save();
+        $data->save();
 
         return redirect()->back();
 

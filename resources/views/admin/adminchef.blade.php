@@ -12,7 +12,7 @@
    @include("admin.navbar")
 
 
-   <form action="{{url('/uploadchef')}}" method="P ost" enctype="multipart/form-data">@csrf
+   <form action="{{url('/uploadchef')}}" method="Post" enctype="multipart/form-data"> @csrf
 
     <div>
 
