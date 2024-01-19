@@ -42,6 +42,14 @@
    </form>
 
   
+   <table bgcolor="black">
+    <tr>
+      <th style="padding:30px; ">Chef Name</th>
+      <th style="padding:30px; ">Speciality</th>
+      <th style="padding:30px; ">Image</th>
+      <th style="padding:30px; ">Action</th>
+    </tr>
+   </table>
 
     </div>
     <!-- container-scroller -->
