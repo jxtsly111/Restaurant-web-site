@@ -41,16 +41,16 @@
 
    </form>
 
-  
+   <div style="position: relative; top: 70px; right: -150;">
    <table bgcolor="black">
     <tr>
-      <th style="padding:30px; ">Chef Name</th>
-      <th style="padding:30px; ">Speciality</th>
-      <th style="padding:30px; ">Image</th>
-      <th style="padding:30px; ">Action</th>
+      <th style="padding:30px">Chef Name</th>
+      <th style="padding:30px">Speciality</th>
+      <th style="padding:30px">Image</th>
+      <th style="padding:30px">Action</th>
     </tr>
    </table>
-
+   </div>
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
